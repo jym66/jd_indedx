@@ -1,0 +1,32 @@
+/*左浮动*/
+.fl {
+    float: left;
+}
+
+/*右浮动*/
+.fr {
+    float: right;
+}
+
+/*版心*/
+.w {
+    width: 1190px;
+    margin: auto;
+}
+
+body {
+    background-color: #e3e4e5;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_3116525_fjo6yuyy0y.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_3116525_fjo6yuyy0y.woff') format('woff'),
+    url('//at.alicdn.com/t/font_3116525_fjo6yuyy0y.ttf') format('truetype'),
+    url('#iconfont') format('svg');
+}
+
+.divider {
+    background-color: #dedede;
+}

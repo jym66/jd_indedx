@@ -1,0 +1,79 @@
+em,
+i {
+    font-style: normal
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -moz-user-select: none; /*火狐*/
+    -webkit-user-select: none; /*webkit浏览器*/
+    -ms-user-select: none; /*IE10*/
+    user-select: none;
+}
+
+li {
+    list-style: none
+}
+
+
+/* 图片后字体垂直于中部位置*/
+
+img {
+    border: 0;
+    vertical-align: middle
+}
+
+
+/* 鼠标为指针样式*/
+
+button {
+    cursor: pointer
+}
+
+
+/* 清除超链接样式*/
+
+a {
+    color: #666;
+    text-decoration: none
+}
+
+a:hover {
+    color: #c81623
+}
+
+button,
+input {
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif
+}
+
+
+/* lineheighth为字体大小的1.5倍*/
+
+body {
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;
+    font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    color: #666
+}
+
+.hide,
+.none {
+    display: none
+}
+
+
+/* 清除浮动 */
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.color-red {
+    color: red !important;
+}
